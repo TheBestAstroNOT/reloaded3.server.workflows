@@ -1,0 +1,30 @@
+[package]
+name = "reloaded3_server_workflows"
+version = "0.1.0"
+edition = "2021"
+description = "dummy desc"
+repository = "https://github.com/TheBestAstroNOT/reloaded3_server_workflows"
+license-file = "LICENSE"
+include = ["src/**/*"]
+readme = "README.MD"
+
+[features]
+default = ["std"]
+std = []
+# See README.md for more information on using Profile-Guided Optimization.
+pgo = []
+# Feature for enabling C library exports.
+c-exports = []
+[dependencies]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dev-dependencies]
+criterion = "0.7.0"
+
+
+# Benchmark Stuff
+[[bench]]
+name = "my_benchmark"
+path = "benches/my_benchmark/main.rs"
+harness = false

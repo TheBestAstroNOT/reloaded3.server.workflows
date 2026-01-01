@@ -1,0 +1,11 @@
+[package]
+name = "reloaded3_server_workflows-cli"
+version = "0.1.0"
+edition = "2021"
+description = "CLI for dummy desc"
+repository = "https://github.com/TheBestAstroNOT/reloaded3_server_workflows"
+license-file = "LICENSE"
+readme = "README.MD"
+
+[dependencies]
+reloaded3_server_workflows = { path = "../reloaded3_server_workflows" }
