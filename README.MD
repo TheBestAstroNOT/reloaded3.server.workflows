@@ -31,13 +31,13 @@ This repository uses a two-level README structure:
 | File | Purpose | What to Write |
 |------|---------|---------------|
 | `README.MD` (this file) | GitHub landing page | Project overview, quick start example, badges |
-| [`src/reloaded3_server_workflows/README.MD`](./src/reloaded3_server_workflows/README.MD) | crates.io page | Detailed features, installation, comprehensive usage examples |
+| [`src/reloaded3_server_workflows/README.MD`](./src/reloaded3.server.workflows/README.MD) | crates.io page | Detailed features, installation, comprehensive usage examples |
 
 -----------------------
 
 [![Crates.io](https://img.shields.io/crates/v/reloaded3_server_workflows.svg)](https://crates.io/crates/reloaded3_server_workflows)
 [![Docs.rs](https://docs.rs/reloaded3_server_workflows/badge.svg)](https://docs.rs/reloaded3_server_workflows)
-[![CI](https://github.com/TheBestAstroNOT/reloaded3_server_workflows/actions/workflows/rust.yml/badge.svg)](https://github.com/TheBestAstroNOT/reloaded3_server_workflows/actions)
+[![CI](https://github.com/TheBestAstroNOT/reloaded3.server.workflows/actions/workflows/rust.yml/badge.svg)](https://github.com/TheBestAstroNOT/reloaded3.server.workflows/actions)
 
 dummy desc
 
@@ -73,9 +73,9 @@ We welcome contributions! See the [Contributing Guide](https://reloaded-project.
 Licensed under [](./LICENSE).
 
 [codecov]: https://app.codecov.io
-[gh-actions-secrets]: https://github.com/TheBestAstroNOT/reloaded3_server_workflows/settings/secrets/actions
-[gh-actions-dependabot]: https://github.com/TheBestAstroNOT/reloaded3_server_workflows/settings/secrets/dependabot
-[gh-pages]: https://github.com/TheBestAstroNOT/reloaded3_server_workflows/settings/pages
+[gh-actions-secrets]: https://github.com/TheBestAstroNOT/reloaded3.server.workflows/settings/secrets/actions
+[gh-actions-dependabot]: https://github.com/TheBestAstroNOT/reloaded3.server.workflows/settings/secrets/dependabot
+[gh-pages]: https://github.com/TheBestAstroNOT/reloaded3.server.workflows/settings/pages
 [crates-io-key]: https://crates.io/settings/tokens
 [nuget-key]: https://www.nuget.org/account/apikeys
 [docs]: https://reloaded3.server.workflows.github.io/reloaded3.server.workflows
